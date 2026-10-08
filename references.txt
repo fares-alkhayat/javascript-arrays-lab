@@ -1,0 +1,2 @@
+[1] sadmicrowave, ‘Find if variable is divisible by 2’, Stack Overflow. Accessed: Oct. 08, 2026. [Online]. Available: https://stackoverflow.com/q/2821006
+[2] A. E, ‘Answer to “Find if variable is divisible by 2”’, Stack Overflow. Accessed: Oct. 08, 2026. [Online]. Available: https://stackoverflow.com/a/2821016

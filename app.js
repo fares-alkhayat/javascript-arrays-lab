@@ -38,17 +38,15 @@ console.log('Exercise 6 Result:', foods);
 
 // Exercise 7: Slice Method
 
-foods.slice(0,"sushi","cupcake")
-const yummy = [foods[1], foods[2]]
+const yummy =
+    [foods[1], foods[2]];
+    foods.slice(0,"sushi","cupcake")
+
 console.log('Exercise 7 Result:', yummy);
 
 // Exercise 8: Finding an Index
 
-console.log(foods.indexOf("tofu"))
-
-const soyIdx = [foods[3]]
-
-console.log('Exercise 8 Result:', soyIdx);
+console.log('Exercise 8 Result:', foods.indexOf("tofu"))
 
 // Exercise 9: Joining Elements
 
@@ -80,15 +78,15 @@ const buzz = []
 const fizzbuzz = []
 
 for(let number of nums){
-    if (number % 3){fizz.push(number)}
+    if (number % 3 === 0){fizz.push(number)} // [1] [2]
 }
 
 for(let number of nums){
-    if (number % 5){buzz.push(number)}
+    if (number % 5 === 0){buzz.push(number)} // [1] [2]
 }
 
 for(let number of nums){
-    if (number % 3 && 5){fizzbuzz.push(number)}
+    if (number % 3 && 5 === 0){fizzbuzz.push(number)} // [1] [2]
 }
 
 console.log('Exercise 12 Results:');
